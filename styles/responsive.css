@@ -111,7 +111,9 @@
     justify-content: space-around;
     gap: 10px;
   }
- 
+  .newsletter-inbox input[type="button"] {
+    padding: 14px 100px 14px 100px;
+}
   .newsletter-banner-save-up h5 {
     font-size: 16px;
   }
@@ -130,17 +132,26 @@
     font-size: 0.875rem;
     margin-top: 16px;
   }
-}
-/* medium device */
-@media screen and (min-width: 576px) and (max-width: 992px) {
-  .select-container form {
-    display: flex;
-    padding: 16px;
+  .simple-perfect-containaer {
     flex-direction: column;
-    gap: 16px;
+    gap: 24px;
   }
-  .popular-tours-container-wraper,
-  .nav-container {
-    flex-direction: column;
-  }
+  .simple-perfect-content {
+    width: 90%;
 }
+.simple-perfect-media-section{
+width: 90%;
+}
+.simple-perfect-content h2 {
+  font-size: 20px;
+  line-height: 30px;
+}
+.simple-perfect-content p {
+  font-size: 14px;
+}
+.simple-perfect-content ul li{
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+}
+
