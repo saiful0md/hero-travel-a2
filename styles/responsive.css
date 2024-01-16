@@ -1,0 +1,146 @@
+/* Responsive styles */
+/* Mobile devices */
+@media screen and (max-width: 576px) {
+  .nav-container
+   {
+    flex-direction: column;
+  }
+  .popular-tours-container-wraper{
+    gap: 24px;
+    flex-direction: column;
+  }
+  .nav-container ul {
+    gap: 3px;
+  }
+  
+  .nav-container .logo-section img {
+    width: 28.724px;
+    height: 33.516px;
+  }
+  .nav-container .logo-section .logo-title {
+    margin-bottom: 20px;
+    font-size: 1.3125rem;
+  }
+  .nav-container .logo-section .logo-title .journey {
+    font-size: 1.3125rem;
+  }
+  .banner-container-wraper {
+    width: 100%;
+    height: 483px;
+  }
+  .banner-container {
+    top: 0;
+    left: 0;
+  }
+  .banner-container .banner-content .banner-title {
+    font-size: 1.375rem;
+    padding-top: 20px;
+  }
+  .banner-container .banner-content .banner-description {
+    font-size: 0.875rem;
+    padding: 20px 10px;
+    margin: 0;
+  }
+  .popular-tours-contant .popular-tours-title {
+    font-size: 1.25rem;
+}
+  .popular-tours-contant .popular-tours-description {
+    font-size: 0.875rem;
+}
+  .popular-tours-contant ul li {
+    font-size: 0.875rem;
+}
+  .select-container form {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .select-container form input {
+    padding-top: 18px;
+    max-width: 471px;
+  }
+  .select-container {
+    max-width: 800px;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .popular-tours-img img {
+    width: 100%;
+  }
+  .destination-container-wraper .destination-content h2 {
+    font-size: 1.5rem;
+}
+  .destination-container-wraper .destination-content p {
+    font-size: 0.875rem
+}
+  .destination-card {
+    margin-top: 24px;
+  }
+  .destination-card .card-1,
+  .destination-card .card-2,
+  .destination-card .card-3,
+  .destination-card .card-4,
+  .destination-card .card-5,
+  .destination-card .card-6,
+  .destination-card .card-7 {
+    grid-column: span 12;
+  }
+  .footer-content {
+    width: 100%;
+  }
+  .footer-content .footer-heading h3 {
+    font-size: 30px;
+  }
+  .footer-content .footer-heading h3 span {
+    font-size: 30px;
+  }
+  .newsletter .newsletter-container {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .newsletter-inbox {
+    border-radius: 16px;
+    border: 1px solid #ff5400;
+    padding: 30px;
+    width: 86%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+  }
+ 
+  .newsletter-banner-save-up h5 {
+    font-size: 16px;
+  }
+  .newsletter-banner-save-up h3 {
+    font-size: 20px;
+  }
+  .why-choose-card-container .card-1,
+  .why-choose-card-container .card-2,
+  .why-choose-card-container .card-3{
+    grid-column: span 4;
+  }
+  .why-choose-content h2{
+    font-size: 1.25rem;
+  }
+  .why-choose-content p{
+    font-size: 0.875rem;
+    margin-top: 16px;
+  }
+}
+/* medium device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .select-container form {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .popular-tours-container-wraper,
+  .nav-container {
+    flex-direction: column;
+  }
+}
