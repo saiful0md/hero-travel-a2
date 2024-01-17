@@ -153,5 +153,70 @@ width: 90%;
   font-size: 14px;
   margin-bottom: 16px;
 }
+
+.deals-discounts-section-title{
+  font-size: 20px;
+}
+.deals-discounts-section-description{
+  font-size: 14px;
+}
+.card-time-location {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 452px;
+  margin-top: 0px;
+  column-gap: 15px;
+  margin-left: 10px;
+}
+
+.card-time-location .card {
+  margin-top: 26px;
+}
+.card-time-location .clock {
+  width: 100%;
+  justify-content: flex-start;
+}
+.card-wraper {
+    align-items: end;
+    justify-content: center;
+}
+#card-wraper {
+    align-items: end;
+    justify-content: center;
+}
+#card-wraper .card-container {
+  margin-left: 0;
+  height: 297px;
+  margin-bottom: 20px;
+}
+.card-container {
+  margin-right: 0;
+  height: 297px;
+  margin-bottom: 20px;
+}
+
+.card-content {
+  max-width: 280px;
+  margin: 10px;
+  gap: 0;
+}
+.card-content h3 {
+  font-size: 20px;
+}
+.card-content p {
+  color: #5A5A5D;
+  font-size: 14px;
+  line-height: 24px; 
+}
+.card-content p span{
+  display: none;
+}
+.card-content h4 {
+  font-size: 16px;
+  margin: 10px 0px;
+}
+.card-content a {
+  font-size: 18px;
+}
 }
 
