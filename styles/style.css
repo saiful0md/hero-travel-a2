@@ -557,7 +557,7 @@ margin: 24px 0px 32px 0px;
 .simple-perfect-media-section{
   background: url("../images/Group\ 40089.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   width: 45%;
   height: 424px;
