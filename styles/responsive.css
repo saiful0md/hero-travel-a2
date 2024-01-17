@@ -1,9 +1,8 @@
 /* Responsive styles */
 /* Mobile devices */
 @media screen and (max-width: 576px) {
-  .nav-container
-   {
-    flex-direction: column;
+  .nav-container img{
+    display: block;
   }
   .popular-tours-container-wraper{
     gap: 24px;
@@ -11,6 +10,7 @@
   }
   .nav-container ul {
     gap: 3px;
+    display: none;
   }
   
   .nav-container .logo-section img {
@@ -101,6 +101,10 @@
     flex-direction: column;
     row-gap: 20px;
   }
+  .blog-card-container {
+
+    flex-direction: column;
+}
   .newsletter-inbox {
     border-radius: 16px;
     border: 1px solid #ff5400;

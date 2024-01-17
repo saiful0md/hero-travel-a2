@@ -12,7 +12,7 @@ a {
   transition: 0.5s all ease;
 }
 a:hover {
-  opacity: .6;
+  opacity: 0.6;
 }
 
 /* Header Section Styles */
@@ -26,6 +26,9 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.nav-container img {
+  display: none;
 }
 .nav-container .logo-section {
   display: flex;
@@ -381,27 +384,27 @@ a:hover {
   background: rgba(233, 68, 68, 0.05);
 }
 /* deals discounts section  styles*/
-.deals-discounts-section{
+.deals-discounts-section {
   padding: 1.875rem 1rem;
   max-width: 1440px;
   width: 90%;
   margin: 0 auto;
 }
-.deals-discounts-section-title{
+.deals-discounts-section-title {
   color: #131318;
   text-align: center;
   font-size: 40px;
   font-weight: 800;
   margin: 100px 0px 24px;
 }
-.deals-discounts-section-description{
-  color: rgba(19, 19, 24, 0.70);
+.deals-discounts-section-description {
+  color: rgba(19, 19, 24, 0.7);
   text-align: center;
   line-height: 26px;
   max-width: 640px;
   margin: 0 auto;
 }
-.deals-discounts-card-container{
+.deals-discounts-card-container {
   margin-top: 48px;
 }
 .card-wraper {
@@ -426,15 +429,15 @@ a:hover {
   border-radius: 16px;
   justify-content: start;
 }
-#card-wraper .card-container{
+#card-wraper .card-container {
   margin-left: 50px;
 }
-.card-container{
+.card-container {
   border-radius: 16px;
-  border: 2px solid #FFF;
-  background: rgba(255, 255, 255, 0.80);
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(2.5px);
-  max-width:  579px;
+  max-width: 579px;
   height: 389px;
   margin-right: 50px;
   width: 90%;
@@ -447,17 +450,17 @@ a:hover {
   max-width: 452px;
   margin-top: 40px;
 }
-.card-time-location .card{
+.card-time-location .card {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.card-time-location i{
-  color: #FF5400;
+.card-time-location i {
+  color: #ff5400;
   margin-right: 10px;
 }
-.card-time-location h4{
-  color: #5A5A5D;
+.card-time-location h4 {
+  color: #5a5a5d;
 }
 .card-content {
   display: flex;
@@ -467,39 +470,39 @@ a:hover {
   align-items: flex-start;
   gap: 13px;
 }
-.card-content h3{
+.card-content h3 {
   color: #131318;
   font-size: 24px;
   font-weight: 800;
 }
-.card-content p{
-  color: #5A5A5D;
-  line-height: 26px; 
+.card-content p {
+  color: #5a5a5d;
+  line-height: 26px;
 }
-.card-content h4{
-  color: #FF5400;
+.card-content h4 {
+  color: #ff5400;
   font-size: 20px;
   font-weight: 800;
 }
-.card-content a{
-  color: #FFF;
+.card-content a {
+  color: #fff;
   text-align: center;
   font-size: 20px;
   font-weight: 800;
-  background-color: #FF5400;
+  background-color: #ff5400;
   border-radius: 8px;
   padding: 14px 24px;
 }
-.see-all-btn{
-margin: 48px auto;
-width: 215px;
+.see-all-btn {
+  margin: 48px auto;
+  width: 215px;
 }
-.see-all-btn a{
-  color: #FFF;
+.see-all-btn a {
+  color: #fff;
   text-align: center;
   font-size: 20px;
   font-weight: 800;
-  background-color: #FF5400;
+  background-color: #ff5400;
   border-radius: 8px;
   padding: 14px 24px;
 }
@@ -526,7 +529,7 @@ width: 215px;
   line-height: 60px;
 }
 .simple-perfect-content p {
-  color: #5A5A5D;
+  color: #5a5a5d;
   font-family: Mulish;
   font-size: 16px;
   font-style: normal;
@@ -534,27 +537,27 @@ width: 215px;
   line-height: 26px; /* 162.5% */
 }
 .simple-perfect-content ul {
-padding-left: 20px;
-margin: 24px 0px 32px 0px;
+  padding-left: 20px;
+  margin: 24px 0px 32px 0px;
 }
-.simple-perfect-content ul li{
+.simple-perfect-content ul li {
   color: #131318;
   font-size: 16px;
   font-weight: 700;
-  line-height: 26px; 
+  line-height: 26px;
   margin-bottom: 16px;
 }
-.simple-perfect-content a{
-  color: #FFF;
+.simple-perfect-content a {
+  color: #fff;
   text-align: center;
   font-size: 20px;
   font-weight: 800;
   border-radius: 8px;
-  background: #FF5400;
+  background: #ff5400;
   padding: 13px 42px;
 }
 
-.simple-perfect-media-section{
+.simple-perfect-media-section {
   background: url("../images/Group\ 40089.png");
   background-position: center;
   background-size: contain;
@@ -564,12 +567,44 @@ margin: 24px 0px 32px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;border-radius: 16px;
+  color: #fff;
+  border-radius: 16px;
   font-size: 1.5rem;
   font-weight: 700;
   text-align: center;
 }
+/* Our Blog */
+.our-blog-container {
+  padding: 1.875rem 1rem;
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+}
+.blog-card-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.blog-card-container .blog-card{
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(255, 228, 196, 0.432);
+  height: 400px;
+  border-radius: 16px;
+  padding: 20px;
+}
+.blog-card-container .blog-card img{
+  max-width: 100%;
+  border-radius: 16px;
+  
+}
+.blog-card-container .blog-card h4{
+ color: #7AB730;
+ font-weight: 700;
 
+}
 /* Newsletter section styles */
 .newsletter {
   padding: 1.875rem 1rem;
@@ -657,6 +692,7 @@ margin: 24px 0px 32px 0px;
   font-size: 2rem;
   font-weight: 800;
 }
+
 /* Footer section styles */
 .footer-section {
   padding: 1.875rem 1rem;
